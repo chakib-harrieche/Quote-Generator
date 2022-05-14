@@ -36,11 +36,15 @@ async function GetQuote() {
     }
 }
 
+const quote = null;
+const author = null;
+
 // Tweet
 function TweetQuote() {
-    const quote = quoteText.innerText;
-    const author = quoteAuthor.innerText;
-    const twitterUrl = 'https://twitter.com/intent/tweet?text=${quote} - ${author}';
+    // const quote = quoteText.innerText;
+    // const author = quoteAuthor.innerText;
+
+    const twitterUrl = 'https://twitter.com/intent/tweet?text=hello';
     window.open(twitterUrl, '_blank');
 }
 
