@@ -6,8 +6,8 @@ const newQuoteBtn = document.getElementById('new-quote');
 
 // get quote from API
 async function GetQuote() {
-    const proxyUrl = 'http://cors-anywhere.herokuapp.com/'
-    const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json'
+    const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+    const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json'
     try {      
         const response = await fetch(proxyUrl + apiUrl);
         const data = await response.json();
