@@ -61,7 +61,7 @@ const author = null;
 // Tweet
 function TweetQuote() {
     const quote = quoteText.innerText;
-    const author = quoteAuthor.innerText;
+    const author = authorText.innerText;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${quote}%20-%20${author}`;
     window.open(twitterUrl, '_blank');
 }
