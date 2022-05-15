@@ -14,8 +14,8 @@ function Loading() {
 // hide loading
 function CompleteLoading() {
     if(!loader.hidden) {
-        quoteContainer.hidden = false;
         loader.hidden = true;
+        quoteContainer.hidden = false;
     }
 
 }
